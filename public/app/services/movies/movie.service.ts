@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { Movie } from '../../models/movie.model';
 import { ExceptionService } from '../shared/exception.service';
 
-let omdbapi = 'https://www.omdbapi.com/';
-let starWarsmoviesSearch = '?s=%22Star%20Wars%22&type=movie';
+let omdbapi = 'http://www.omdbapi.com/?apikey=701f65b3';
+let starWarsmoviesSearch = '&s=%22Star%20Wars%22&type=movie';
 
 @Injectable()
 export class MovieService {
