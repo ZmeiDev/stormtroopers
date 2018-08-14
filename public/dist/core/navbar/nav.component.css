@@ -47,14 +47,14 @@
   /*Change active text color here*/
 }
 
-.navbar-brand a {
+.navbar-brand-test a {
   color: gold;
   text-decoration: none;
   font-size: 1.5em;
   font-family: starWars, "Arial Black", Gadget, sans-serif;
 }
 
-.navbar-brand {
+.navbar-brand-test {
   padding-top: 20px;
 }
 
